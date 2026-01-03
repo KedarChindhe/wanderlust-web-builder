@@ -1,13 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/travel/Hero";
+import Navbar from "@/components/travel/Navbar";
+import Destinations from "@/components/travel/Destinations";
+import Packages from "@/components/travel/Packages";
+import Offers from "@/components/travel/Offers";
+import LeadForm from "@/components/travel/LeadForm";
+import Testimonials from "@/components/travel/Testimonials";
+import Contact from "@/components/travel/Contact";
+import Footer from "@/components/travel/Footer";
+import StickyMobileCTA from "@/components/travel/StickyMobileCTA";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen overflow-x-hidden">
+      <Navbar />
+      <Hero />
+      <Destinations />
+      <Packages />
+      <Offers />
+      <LeadForm />
+      <Testimonials />
+      <Contact />
+      <Footer />
+      <StickyMobileCTA />
+    </main>
   );
 };
 
