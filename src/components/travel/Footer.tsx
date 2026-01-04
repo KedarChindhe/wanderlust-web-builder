@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <MapPin className="w-7 h-7 text-primary" />
-              <span className="text-2xl font-serif font-bold">Wanderlust</span>
+              <span className="text-2xl font-serif font-bold">Global Hiking Travel</span>
             </div>
             <p className="text-primary-foreground/70 mb-6">
               Your trusted travel partner since 2010. Creating unforgettable journeys across the globe.
@@ -76,7 +76,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-primary-foreground/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-primary-foreground/60">
-            © 2024 Wanderlust Travels. All rights reserved.
+            © 2024 Global Hiking Travel. All rights reserved.
           </p>
           <p className="text-sm text-primary-foreground/60">
             Made with ❤️ in India

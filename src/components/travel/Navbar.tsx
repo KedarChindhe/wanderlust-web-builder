@@ -46,7 +46,7 @@ const Navbar = () => {
             <a href="#" className="flex items-center gap-2">
               <MapPin className={`w-7 h-7 ${isScrolled ? "text-primary" : "text-primary-foreground"}`} />
               <span className={`text-xl font-serif font-bold ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>
-                Wanderlust
+                Global Hiking Travel
               </span>
             </a>
 
