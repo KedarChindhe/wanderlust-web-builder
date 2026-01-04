@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 
 const Contact = () => {
   const openWhatsApp = () => {
-    window.open("https://wa.me/919876543210?text=Hi! I'd like to enquire about travel packages.", "_blank");
+    window.open("https://wa.me/918180956831?text=Hi! I'd like to enquire about travel packages.", "_blank");
   };
 
   const callNow = () => {
-    window.location.href = "tel:+919876543210";
+    window.location.href = "tel:+918180956831";
   };
 
   return (
@@ -41,8 +41,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Call Us</h4>
-                  <a href="tel:+919876543210" className="text-muted-foreground hover:text-primary transition-colors">
-                    +91 98765 43210
+                  <a href="tel:+918180956831" className="text-muted-foreground hover:text-primary transition-colors">
+                    +91 81809 56831
                   </a>
                 </div>
               </div>
