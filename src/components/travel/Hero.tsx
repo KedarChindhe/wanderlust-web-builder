@@ -59,7 +59,7 @@ const Hero = () => {
           >
             <MapPin className="w-8 h-8 text-primary" />
             <span className="text-3xl font-serif font-bold text-primary-foreground">
-              Wanderlust
+              Global Hiking Travel
             </span>
           </motion.div>
 
